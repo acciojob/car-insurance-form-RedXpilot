@@ -10,6 +10,43 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<main>
+		<form action="" method="" id="form">
+			<label for="name">Name:</label>
+			<input required id="name" type="text" name="name"  value="name" placeholder="Type your name"><br><br>
+
+			<label for="email">Email:</label>
+			<input required id="email" type="email" name="email" value="123@gmail.com" placeholder="123@xyz.com"><br><br>
+
+			<label>Gender:</label>
+			<input  id="male" type="radio" name="gender" value="male" required>
+			<label for="male">Male</label>
+			<input id="female" type="radio" name="gender" value="female" required>
+			<label for="female">Female</label>
+			<input id="other" type="radio" name="gender"  value="other" required>
+			<label for="other">Other</label><br><br>
+
+			<label for="cars">Choose a car:</label>
+
+			<select required  name="cars" id="cars" required>
+			<option value="">None</option>
+			  <option value="BMW">BMW</option>
+			  <option value="mercedes">Mercedes</option>
+			  <option value="audi">Audi</option>
+			</select> <br><br>
+						
+			<label for="carage">Car Age:</label>
+			<input required id="carage" type="number" name="carage" value="1" required><br><br>
+
+			<label for="dop">Date of Purchase</label>
+			<input required for="dop" type="date" name="dop" value="date"><br><br>
+
+			<label for="password">Password:</label>
+			<input required for="password" type="password" name="password" value="Password"><br><br>
+
+			<button form="form" type="submit" value="Submit">Submit</button>
+		</form>
+	</main>
 
 </body>
 
